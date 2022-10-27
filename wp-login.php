@@ -5,11 +5,13 @@
 	<title>Log In &lsaquo; My Wordpress &#8212; WordPress</title>
 	<meta name="robots" content="max-image-preview:large, noindex, noarchive">
 <link rel="dns-prefetch" href="//s.w.org">
-<!--n2css--><link rel="stylesheet" id="dashicons-css" href="https://tunakite03.github.io/mywordpress3/wp-includes/css/dashicons.min.css?ver=6.0.2" media="all">
-<link rel="stylesheet" id="buttons-css" href="https://tunakite03.github.io/mywordpress3/wp-includes/css/buttons.min.css?ver=6.0.2" media="all">
-<link rel="stylesheet" id="forms-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/forms.min.css?ver=6.0.2" media="all">
-<link rel="stylesheet" id="l10n-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/l10n.min.css?ver=6.0.2" media="all">
-<link rel="stylesheet" id="login-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/login.min.css?ver=6.0.2" media="all">
+<!--n2css--><script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="stylesheet" id="dashicons-css" href="https://tunakite03.github.io/mywordpress3/wp-includes/css/dashicons.min.css?ver=6.0.3" media="all">
+<link rel="stylesheet" id="buttons-css" href="https://tunakite03.github.io/mywordpress3/wp-includes/css/buttons.min.css?ver=6.0.3" media="all">
+<link rel="stylesheet" id="forms-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/forms.min.css?ver=6.0.3" media="all">
+<link rel="stylesheet" id="l10n-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/l10n.min.css?ver=6.0.3" media="all">
+<link rel="stylesheet" id="login-css" href="https://tunakite03.github.io/mywordpress3/wp-admin/css/login.min.css?ver=6.0.3" media="all">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="https://tunakite03.github.io/mywordpress3/wp-content/uploads/2022/10/logo-white.png" sizes="32x32">
@@ -54,8 +56,12 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
 				<p id="backtoblog">
 			<a href="https://tunakite03.github.io/mywordpress3/">&larr; Go to My Wordpress</a>		</p>
 		<div class="privacy-policy-page-link"><a class="privacy-policy-link" href="https://tunakite03.github.io/mywordpress3/privacy-policy/">Privacy Policy</a></div>	</div>
-			<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
-<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+			<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.1" id="jquery-ui-mouse-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.1" id="jquery-ui-slider-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=7.0.0" id="wc-jquery-ui-touchpunch-js"></script>
+<script id="wpc-filter-everything-js-extra">var wpcFilterFront = {"ajaxUrl":"https:\/\/tunakite03.github.io\/mywordpress3\/wp-admin\/admin-ajax.php","wpcAjaxEnabled":"","wpcStatusCookieName":"wpcContainersStatus","wpcMoreLessCookieName":"wpcMoreLessStatus","wpcHierarchyListCookieName":"wpcHierarchyListStatus","wpcWidgetStatusCookieName":"wpcWidgetStatus","wpcMobileWidth":"768","showBottomWidget":"no","_nonce":"d07fcab5a9","wpcPostContainers":{"default":"#primary"},"wpcAutoScroll":"","wpcAutoScrollOffset":"150","wpcWaitCursor":"1","wpcPostsPerPage":[],"wpcUseSelect2":"","wpcPopupCompatMode":"","wpcApplyButtonSets":[],"wpcQueryOnThePageSets":[]};</script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-content/plugins/filter-everything/assets/js/filter-everything.min.js?ver=1.7.1" id="wpc-filter-everything-js"></script>
 <script id="zxcvbn-async-js-extra">var _zxcvbnSettings = {"src":"https:\/\/tunakite03.github.io\/mywordpress3\/wp-includes\/js\/zxcvbn.min.js"};</script>
 <script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/zxcvbn-async.min.js?ver=1.0" id="zxcvbn-async-js"></script>
 <script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9" id="regenerator-runtime-js"></script>
@@ -66,12 +72,12 @@ if ( typeof wpOnload === 'function' ) { wpOnload() }</script>
 wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
 </script>
 <script id="password-strength-meter-js-extra">var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};</script>
-<script src="https://tunakite03.github.io/mywordpress3/wp-admin/js/password-strength-meter.min.js?ver=6.0.2" id="password-strength-meter-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-admin/js/password-strength-meter.min.js?ver=6.0.3" id="password-strength-meter-js"></script>
 <script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/underscore.min.js?ver=1.13.3" id="underscore-js"></script>
 <script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/myproject\/wordpress\/wp-admin\/admin-ajax.php"}};</script>
-<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/wp-util.min.js?ver=6.0.2" id="wp-util-js"></script>
-<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"cbea91b97d"};</script>
-<script src="https://tunakite03.github.io/mywordpress3/wp-admin/js/user-profile.min.js?ver=6.0.2" id="user-profile-js"></script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-includes/js/wp-util.min.js?ver=6.0.3" id="wp-util-js"></script>
+<script id="user-profile-js-extra">var userProfileL10n = {"user_id":"0","nonce":"3d531530d4"};</script>
+<script src="https://tunakite03.github.io/mywordpress3/wp-admin/js/user-profile.min.js?ver=6.0.3" id="user-profile-js"></script>
 	<div class="clear"></div>
 	</body>
 	</html>
